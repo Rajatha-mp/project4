@@ -2,10 +2,10 @@ runtime: python27
 api_version: 1
 threadsafe: true
 
-# handlers:
-# - url: /
-#   static_files: project4/index.html
-#   upload: project4/index.html
+handlers:
+- url: /
+  static_files: project4/index.html
+  upload: project4/index.html
   
 #   - url: /
 #   static_files: project4/style.css
