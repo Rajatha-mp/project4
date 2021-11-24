@@ -4,13 +4,13 @@ threadsafe: true
 
 handlers:
 - url: /
-  static_files: project3/index.html
-  upload: project3/index.html
+  static_files: project4/index.html
+  upload: project4/index.html
   
   - url: /
-  static_files: project3/style.css
+  static_files: project4/style.css
   upload: project3/style.css
 
 - url: /(.*)
-  static_files: project3/\1
-  upload: project3/(.*)
+  static_files: project4/\1
+  upload: project4/(.*)
